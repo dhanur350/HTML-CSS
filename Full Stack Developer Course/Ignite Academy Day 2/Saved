@@ -1,0 +1,79 @@
+<!--
+  <section>
+    <h2>Registration Form</h2>
+    <form action="" method="POST"> 
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="username from the game" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="password" id="password" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="email">
+      </div>
+
+      <button>Submit</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Menu</h2>    
+    <form>
+      <fieldset>
+        <div>
+          <p>Drinks</p>
+          <label for="coffee">Coffee</label>
+          <input type="radio" name="drink" id="coffee" value="COFFEE">
+          <label for="tea">Tea</label>
+          <input type="radio" name="drink" id="tea" value="TEA">
+           <label for="water">Water</label>
+          <input type="radio" name="drink" id="water" value="WATER">
+        </div>
+        <div>
+          <label for="preferences">Textarea</label>
+          <textarea id="preferences" name="preferences" rows="10" cols="10"></textarea>
+        </div>
+        <div>
+          <p>Select Suger</p>
+          <select name="suger">
+            <option value="1">One spoon</option>
+            <option value="2">Two spoons</option>
+            <option value="10">Ten spoons</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Agreement</legend>
+        <p>Check before submit</p>
+        <label for="agree"></label>
+        <input type="checkbox" name="agree" id="agree" value="true">
+      </fieldset>
+      <button>Submit</button>
+    </form>
+  </section>
+-->
+  <!-- 
+  <h2>Menu</h2>
+  <form>
+   
+    <section>
+      <p>Main Menu</p>
+      <label for="omlet">Omlet</label>
+      <input type="radio" name="maincourse" id="omlet" value="omlet"> 
+      <label for="fries">Fries</label>
+      <input type="radio" name="maincourse" id="fries" value="fries">
+      <fieldset>  
+        <legend>Suger Selection</legend>
+        <select name="sugerPref">
+        <option value="SM2">Suger with 2 tbsp of Almond milk</option>
+        <option value="SN">No Suger</option>
+          </select>
+      </fieldset>
+    </section>
+    <button>Submit</button>
+  </form>
+
+  -->

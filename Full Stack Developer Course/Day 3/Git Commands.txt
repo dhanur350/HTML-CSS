@@ -1,0 +1,16 @@
+Git Commands 
+Compatible Commands in Windows or Linux(Ubuntu)
+
+To Check Version of GIT :- git –version
+To clone files from Github to Git in Local Machine :- git clone “link”
+To change directory as normal Command Prompt does : cd “location”
+To check whether the Git is in which branch MASTER or WORKmode :- git status
+To make a branch in Github via Git : git checkout -b “Name of the branch”
+To see all directories in the current directory location :- ls
+To commit and add all files from Git local machine to Github :- git add .
+Now time to add files in Github via Git local machine
+git commit -a  -m “add new file ‘file name with extension’
+Now push the local file to GITHUB
+git push origin work2
+
+

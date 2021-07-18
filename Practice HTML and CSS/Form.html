@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Payment Form</h1>
+    <div style="line-height: 1cm;">
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <fieldset>
+                    <legend>Choose</legend>
+                    <div>
+                        <label>Are you Student or Teacher?</label>
+                    </div>
+                    <div>
+                        <label for="Studenttype">Student</label>
+                        <input name="Type" type="radio" required="" value="Student">
+                    </div>
+                    <div>
+                        <label for="Teachertype">Teacher</label>
+                        <input name="Type" type="radio" required="" value="Teacher">
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="Name">Name.*.</label>
+                    <input name="name" type="text" required="">
+                </div>
+                <div>
+                    <label for="password">Password.*.</label>
+                    <input name="password" type="password" required="">
+                </div>
+                <div>
+                    <label for="email">Email.*.</label>
+                    <input name="email" type="email" required="email">
+                </div>
+                <div>
+                    <label>Are you an existing user?</label>
+                    <input type="checkbox" type="checkbox">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Payment information</legend>
+                <div>
+                    <label for="Card Information">Card Information</label>
+                    <select name="Card">
+                        <option value="Visa Green">Visa Green</option>
+                        <option value="Visa Gold">Visa Gold</option>
+                        <option value="Rupay">Rupay</option>
+                    </select>
+                    <div>
+                        <label for="Card number">Card Number.*.</label>
+                        <input name="Card number" required maxlength="12" type="number">
+                    </div>
+                    <div>
+                        <label for="CVV">CVV.*.</label>
+                        <input name="CVV" required maxlength="999" type="number">
+                    </div>
+                    <div>
+                        <label for="T/C">I agree to terms and conditions.*.</label>
+                        <input name="T/C" type="checkbox" required="">
+                    </div>
+                    <div>
+                        <button>Validate the Payment</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

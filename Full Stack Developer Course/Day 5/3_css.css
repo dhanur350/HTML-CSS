@@ -1,0 +1,46 @@
+/*#X Selector. Color hexadecimal*/
+
+#id-selector{
+  color: #00ffff;
+}
+/*X selector*/
+div.xtype-selector div {
+  color: #556b2f;
+}
+
+/*X Selector. Color hexadecimal*/
+
+#x-container li.warning {
+  color: #ff0000;
+}
+
+ /*X Y Selector. Color rgb*/
+ div.xy-selector div p{
+  color: rgb(255, 0, 221);
+}
+
+#direct-container > ul{
+  color: #008000;
+}
+
+/*X[title] Selector. Color rgba*/
+#aatr-container a[title]{
+  color: rgba(15, 99, 255, 0.932);
+}
+
+#xvl-container a:link { 
+  color: rgb(9, 5, 255); 
+}
+
+#xvl-container a:visited {
+  color: rgb(0, 255, 191); 
+}
+
+/*X:checked. Color rgb*/
+#xchk-container input[type=radio]:checked + label {
+  color: rgb(255, 0, 0);
+}
+
+#xnot-container * :not(p) {
+  color: rgba(51, 148, 7, 0.932);
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+   <link rel="stylesheet" href="3_css.css">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   </head>
+   <body>
+      <h2>#X Selector. Color hexadecimal</h2>
+      <div id="id-selector">
+         <p> My paragraph here. </p>
+         <ul>
+            <li> List Item 1</li>
+            <li> List Item 2</li>
+         </ul>
+         <ul>
+            <li> List Item 3</li>
+            <li> List Item 4</li>
+         </ul>
+      </div>
+      <h2>.X Selector. Color hexadecimal</h2>
+      <div id="x-container">
+         <p> My paragraph here. </p>
+         <ul>
+            <li> List Item 1</li>
+            <li> List Item 2</li>
+         </ul>
+         <ul>
+            <li class="warning">Something went Wrong </li>
+            <li> List Item 4</li>
+         </ul>
+      </div>
+      <h2>X Selector. Color hexadecimal</h2>
+      <div class="xtype-selector">
+         <div id="xtype-container">
+            <p> My paragraph here. </p>
+            <ul>
+               <li> List Item 1</li>
+               <li> List Item 2</li>
+            </ul>
+            <ul>
+               <li class="warning">Something went Wrong </li>
+               <li> List Item 4</li>
+            </ul>
+         </div>
+         <p> Paragraph outside of div </p>
+      </div>
+      <h2>X Y Selector. Color rgb</h2>
+      <div class="xy-selector">
+         <div id="xy-container">
+            <p> My paragraph here. </p>
+            <ul>
+               <li> List Item 1</li>
+               <li> List Item 2</li>
+            </ul>
+            <ul>
+               <li class="warning">Something went Wrong </li>
+               <li> List Item 4</li>
+            </ul>
+         </div>
+         <p> Paragraph outside of div </p>
+      </div>
+      <h2>X > Y Selector. Color rgb</h2>
+      <div id="direct-container">
+         <ul>
+            <li>
+               List Item
+               <ul>
+                  <li> Child </li>
+               </ul>
+            </li>
+            <li> List Item </li>
+            <li> List Item </li>
+            <li> List Item </li>
+         </ul>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+      </div>
+      <h2>X[title] Selector. Color rgba</h2>
+      <div id="aatr-container">
+         <ul>
+            <li>
+               List Item
+               <ul>
+                  <li> Child </li>
+               </ul>
+            </li>
+            <li> List Item </li>
+            <li> List Item </li>
+            <li> List Item </li>
+         </ul>
+         <p> Lorem ipsum dolor sit amet, <a href="#" title="Some title">consectetur</a> adipisicing elit, sed do eiusmod
+            tempor. 
+         </p>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+         <p> Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing</a> elit, sed do eiusmod tempor. </p>
+         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+      </div>
+      <h2>X:visited and X:link. Color hexadecimal</h2>
+      <div id="xvl-container">
+         <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing</a> elit, sed do eiusmod <a
+            href="http://net.tutsplus.com">tempor</a> incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+         </p>
+      </div>
+      <h2>X:checked. Color rgb</h2>
+      <div id="xchk-container">
+         <form>
+            <input type="radio" name="rad" value="Radio Button">
+            <label for="rad"> Radio Button</label>
+         </form>
+      </div>
+      <h2>X:not(selector). Color rgba</h2>
+      <div id="xnot-container">
+         <div id="container">
+            <ul>
+               <li>
+                  List Item
+                  <ul>
+                     <li> Child </li>
+                  </ul>
+               </li>
+               <li> List Item </li>
+               <li> List Item </li>
+               <li> List Item </li>
+            </ul>
+            <ul>
+               <li>
+                  <a href="#"> Anchor Tag </a>
+               </li>
+               <li>
+                  <a href="#"> Anchor Tag </a>
+               </li>
+               <li>
+                  <a href="#"> Anchor Tag </a>
+               </li>
+               <li>
+                  <a href="#"> Anchor Tag </a>
+               </li>
+            </ul>
+            <p> Lorem ipsum dolor sit amet, <a href="http://www.google.com" data-info="external"
+               title="Some title">consectetur</a> adipisicing elit, sed do <a href="http://nettuts.com">Nettuts</a> tempor.
+            </p>
+            <p> <a href="http://d2o0t5hpnwv4c1.cloudfront.net/817_rubyNewbies1/preivew.png" data-filetype="image">PNG
+               Image</a> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. 
+            </p>
+            <p> Lorem ipsum dolor sit amet, consectetur <a href="#">adipisicing</a> elit, sed do eiusmod tempor. </p>
+            <p> Lorem ipsum <a href="http://net.tutsplus.com">Nettuts+</a> sit amet, consectetur "<a
+               href="http://d2o0t5hpnwv4c1.cloudfront.net/839_git/preview.jpg" data-info="external image">Getting Good with
+               Git</a>" elit, sed do eiusmod tempor. 
+            </p>
+         </div>
+         <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. 
+         </div>
+      </div>
+      </div>
+   </body>
+</html>

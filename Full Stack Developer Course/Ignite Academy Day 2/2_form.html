@@ -1,0 +1,72 @@
+<h1>Payment Form</h1>
+<h4>Requierd Fields are followed by .*.</h4>
+<p>Contact Information</p>
+<div style="line-height: 1cm;">
+   <form action="" method="GET">
+      <fieldset>
+         <legend>Contact Information</legend>
+         <fieldset>
+            <legend>Choose</legend>
+            <div>
+               <label>Are you Teacher or Student ?</label>
+            </div>
+            <div>
+               <label for="type">Student</label>
+               <input name="Student or Teacher" type="radio" value="Student" >
+            </div>
+            <div>
+               <label for="teachertype">Teacher</label>
+               <input name="radiotype" type="radio" value="Teacher" >
+            </div>
+         </fieldset>
+         <div>
+            <label for="username">Name .*. </label>
+            <input name="username" required="" type="text" placeholder="Username" >
+         </div>
+         <div>
+            <label for="password">Password .*. </label>
+            <input maxlength="8" name="password" required="" type="password" >
+         </div>
+         <div>
+            <label for="email">Email .*. </label>
+            <input name="email" required="" type="email" />
+         </div>
+         <div>
+            <label>Are you an existing user ?</label>
+            <input name="Existing User" type="checkbox" />
+         </div>
+      </fieldset>
+      <p>Payment Information</p>
+      <fieldset>
+         <legend> Payment Option</legend>
+         <div>
+            <label for="Card Information">Card</label>
+            <select name="card">
+               <option value="Visa Card">Visa Green</option>
+               <option value="Visa Gold">Visa Gold</option>
+               <option value="Indian Office Card">Indian Office Card</option>
+            </select>
+            <label> </label>
+         </div>
+         <div>
+            <label>Card Number .*.</label>
+            <input name="Card Number" required maxlength="12" type="number" >
+         </div>
+         <div>
+            <label for="Expiry Month and Year">Expiry Month and Year</label>
+            <input name="Expiry Date and Month" required type="month" >
+         </div>
+         <div>
+            <label for="CVV">CVV</label>
+            <input name="CVV" max="999" required type="number" > </label>
+         </div>
+         <div>
+            <label>I agree to the terms and Conditions .*. </label>
+            <input name="Terms and Conditions" type="checkbox" >
+         </div>
+         <div>
+            <button> Validate The Payment </button>
+         </div>
+      </fieldset>
+   </form>
+</div>

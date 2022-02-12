@@ -1,0 +1,29 @@
+h1{
+    color: blue;
+}
+/* Star selector
+*{
+    color: blue;
+}
+*/
+#h1test
+{
+    color: green;
+}
+
+.h1class
+{
+    color: aqua;
+}
+
+ul li label{
+    color: brown;
+}
+
+.asection > a[href*=hhtps]{
+    color: chartreuse;
+}
+
+ul p[class=myparagraph]{
+    color: darkgreen;
+}
